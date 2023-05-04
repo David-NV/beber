@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* MISE EN PAGE DE LA BARRE DE NAV*/
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.lien-titre,.lien{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.lien:hover{
+    background: rgb(56, 56, 56);
+    border-radius: 20px;
+}
+.inscription{
+    background: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20px;
+}
+.inscription:hover{
+    background: lightgray;
+}
+
+/* MISE EN PAGE DU CORPS DE LA PAGE*/
+main{
+    background: url("beber.jpg") no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.presentation{
+    background: white;
+    margin-left: 10vw;
+    width: 40vw;
+    height: 80vh;
+    position: relative;
+    top: 10vh;
+}
+.services{
+    height: 20vh;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-around;
+}
+.services__descript{
+        width: 6vw;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+}
+.services__liens{
+    text-decoration: none;
+}
+.services__detail{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin:10%;
+
+}
+.services__detail__heading{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.services__detail__inscript{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.services__detail__inscript__link{
+    background: black;
+    text-decoration: none;
+    color: white;
+    height: 5%;
+    padding: 10px;
+    border-radius: 5px;
+}
